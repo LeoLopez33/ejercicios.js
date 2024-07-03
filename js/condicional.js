@@ -5,17 +5,17 @@
 
 function stock(){
     //Pido cantidad de gorras y zapatillas
-    var numero1 = prompt("Ingrese cantidad de gorras");
-    var numero2 = prompt("Ingrese cantidad de zapatillas:");
+    var gorras = prompt("Ingrese cantidad de gorras");
+    var zapas = prompt("Ingrese cantidad de zapatillas:");
 
     //Mostramos el resultado
-    if ((numero1 >= 0 && numero1 <= 50 && numero2 >= 0 && numero2 <= 5))
+    if ((gorras >= 0 && gorras <= 50 && zapas >= 0 && zapas <= 5))
         alert ("Tenemos stock de gorras y zapatillas");
      else if
-     ((numero1 >= 50 && numero2 <= 5))
+     ((gorras >= 50 && zapas <= 5))
         alert ("No hay stock de gorras, si de zapatillas"); 
         else if
-        ((numero1 <= 50 && numero2 >= 5))
+        ((gorras <= 50 && zapas >= 5))
            alert ("No hay stock de zapas, si de gorras"); 
     else{
         alert ("No hay stock");
